@@ -24,7 +24,6 @@ namespace treinamento_poo.Service
 
             var saque = Sacar(valor, conta.Saldo);
 
-            // mplemente a ação sacar aqui e exiba as informações para o usuário...
             Console.WriteLine("====================================");
             Console.WriteLine("Informações da conta do cliente: ");
             Console.WriteLine("Olá" + nome + ".");
@@ -97,8 +96,6 @@ namespace treinamento_poo.Service
             Console.WriteLine("Operação realizada com sucesso!");
 
         }
-
-        // criar os métodos Sacar, Depositar e Transferir como private
         
         private double Sacar(double saldo, double valor)
         {

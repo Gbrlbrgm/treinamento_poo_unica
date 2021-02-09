@@ -7,7 +7,6 @@ namespace treinamento_poo
     {
         static void Main(string[] args)
         {
-            // Exibe menu de opções para o usuário selecionar
 
             Console.WriteLine(" ..:: Selecione uma opção ::..");
             Console.WriteLine();
@@ -15,7 +14,6 @@ namespace treinamento_poo
             Console.WriteLine("2 - Saque");
             Console.WriteLine("3 - Transferência");
 
-            // obtem a opção selecionada pelo usuário
             var opcao = Console.ReadKey();
 
             switch (opcao.KeyChar)
